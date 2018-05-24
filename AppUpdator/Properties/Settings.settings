@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppUpdator.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IsConfigured" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="REPOSITORY" Type="System.String" Scope="User">
+      <Value Profile="(Default)">200.100.100.36</Value>
+    </Setting>
+    <Setting Name="REPOSITORY_USER" Type="System.String" Scope="User">
+      <Value Profile="(Default)">binoy</Value>
+    </Setting>
+    <Setting Name="REPOSITORY_PASSWORD" Type="System.String" Scope="User">
+      <Value Profile="(Default)">password</Value>
+    </Setting>
+    <Setting Name="REPOSITORY_LOCATION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/POSAssitance</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

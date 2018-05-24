@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSExtendedWarrenty", "LSExtendedWarrenty\LSExtendedWarrenty.csproj", "{19BE65CE-E03B-44EB-9B47-9B2395A55056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSAssistance", "POSAssistance\POSAssistance.csproj", "{FAFAF192-153B-4CE0-A97E-C64A439C99B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppUpdator", "AppUpdator\AppUpdator.csproj", "{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateFiles", "Test\UpdateFiles.csproj", "{BABC950E-DB5D-433E-8D93-617A9544F7EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberControl", "PhoneNumberControl\PhoneNumberControl.csproj", "{9700312A-3336-4E47-902C-F8FCBE2D7D27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExtentions", "..\..\GitHub\MyExtentions\MyExtentions\MyExtentions.csproj", "{D2686E19-E7EC-44FF-9931-68B6018F9CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpProject", "..\..\GitHub\MyExtentions\StartUpProject\StartUpProject.csproj", "{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19BE65CE-E03B-44EB-9B47-9B2395A55056}.Debug|x86.ActiveCfg = Debug|x86
+		{19BE65CE-E03B-44EB-9B47-9B2395A55056}.Debug|x86.Build.0 = Debug|x86
+		{19BE65CE-E03B-44EB-9B47-9B2395A55056}.Release|x86.ActiveCfg = Release|x86
+		{19BE65CE-E03B-44EB-9B47-9B2395A55056}.Release|x86.Build.0 = Release|x86
+		{FAFAF192-153B-4CE0-A97E-C64A439C99B5}.Debug|x86.ActiveCfg = Debug|x86
+		{FAFAF192-153B-4CE0-A97E-C64A439C99B5}.Debug|x86.Build.0 = Debug|x86
+		{FAFAF192-153B-4CE0-A97E-C64A439C99B5}.Release|x86.ActiveCfg = Release|x86
+		{FAFAF192-153B-4CE0-A97E-C64A439C99B5}.Release|x86.Build.0 = Release|x86
+		{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}.Debug|x86.ActiveCfg = Debug|x86
+		{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}.Debug|x86.Build.0 = Debug|x86
+		{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}.Release|x86.ActiveCfg = Release|x86
+		{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}.Release|x86.Build.0 = Release|x86
+		{BABC950E-DB5D-433E-8D93-617A9544F7EF}.Debug|x86.ActiveCfg = Debug|x86
+		{BABC950E-DB5D-433E-8D93-617A9544F7EF}.Debug|x86.Build.0 = Debug|x86
+		{BABC950E-DB5D-433E-8D93-617A9544F7EF}.Release|x86.ActiveCfg = Release|x86
+		{BABC950E-DB5D-433E-8D93-617A9544F7EF}.Release|x86.Build.0 = Release|x86
+		{9700312A-3336-4E47-902C-F8FCBE2D7D27}.Debug|x86.ActiveCfg = Debug|x86
+		{9700312A-3336-4E47-902C-F8FCBE2D7D27}.Debug|x86.Build.0 = Debug|x86
+		{9700312A-3336-4E47-902C-F8FCBE2D7D27}.Release|x86.ActiveCfg = Release|x86
+		{9700312A-3336-4E47-902C-F8FCBE2D7D27}.Release|x86.Build.0 = Release|x86
+		{D2686E19-E7EC-44FF-9931-68B6018F9CAC}.Debug|x86.ActiveCfg = Debug|x86
+		{D2686E19-E7EC-44FF-9931-68B6018F9CAC}.Debug|x86.Build.0 = Debug|x86
+		{D2686E19-E7EC-44FF-9931-68B6018F9CAC}.Release|x86.ActiveCfg = Release|x86
+		{D2686E19-E7EC-44FF-9931-68B6018F9CAC}.Release|x86.Build.0 = Release|x86
+		{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}.Debug|x86.ActiveCfg = Debug|x86
+		{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}.Debug|x86.Build.0 = Debug|x86
+		{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}.Release|x86.ActiveCfg = Release|x86
+		{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

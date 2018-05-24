@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{19BE65CE-E03B-44EB-9B47-9B2395A55056}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LSExtendedWarrenty</RootNamespace>
+    <AssemblyName>LSExtendedWarrenty</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AppBase\Controls\AddWarrentyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="AppBase\DataHelper\Connection.cs" />
+    <Compile Include="AppBase\DataHelper\DataProvider.cs" />
+    <Compile Include="AppBase\DataHelper\DataProvider.VATReceipt.cs" />
+    <Compile Include="AppBase\DataHelper\HQConnection.cs" />
+    <Compile Include="AppBase\DataHelper\NoWarrentySettingFoundException.cs" />
+    <Compile Include="AppBase\ExcelExport\ExcelCSVExport.cs" />
+    <Compile Include="AppBase\ReportPriner.cs" />
+    <Compile Include="AppBase\Reciept.cs" />
+    <Compile Include="AppBase\RecieptItem.cs" />
+    <Compile Include="AppBase\RichTextBoxPrinter\RichTextBoxExtensions.cs" />
+    <Compile Include="AppBase\RichTextBoxPrinter\RichTextBoxPrintHelper.cs" />
+    <Compile Include="AppBase\SettingsProvider.cs" />
+    <Compile Include="AppBase\Warrenty.cs" />
+    <Compile Include="AppBase\WarrentyItem.cs" />
+    <Compile Include="AppBase\WarretntySettings.cs" />
+    <Compile Include="Authorize.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorize.Designer.cs">
+      <DependentUpon>Authorize.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfirmPayment.Designer.cs">
+      <DependentUpon>ConfirmPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppBase\Customer.cs" />
+    <Compile Include="CustomerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerForm.Designer.cs">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtendedWarrenty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtendedWarrenty.Designer.cs">
+      <DependentUpon>FormExtendedWarrenty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormJournal.Designer.cs">
+      <DependentUpon>FormJournal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMaintance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMaintance.Designer.cs">
+      <DependentUpon>FormMaintance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReciept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReciept.Designer.cs">
+      <DependentUpon>FormReciept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ReceiptDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReceiptDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SelectCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectCustomer.Designer.cs">
+      <DependentUpon>SelectCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VATReceipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VATReceipt.Designer.cs">
+      <DependentUpon>VATReceipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WarrentyItemSelction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WarrentyItemSelction.Designer.cs">
+      <DependentUpon>WarrentyItemSelction.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authorize.resx">
+      <DependentUpon>Authorize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfirmPayment.resx">
+      <DependentUpon>ConfirmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerForm.resx">
+      <DependentUpon>CustomerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtendedWarrenty.resx">
+      <DependentUpon>FormExtendedWarrenty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormJournal.resx">
+      <DependentUpon>FormJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMaintance.resx">
+      <DependentUpon>FormMaintance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReciept.resx">
+      <DependentUpon>FormReciept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectCustomer.resx">
+      <DependentUpon>SelectCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VATReceipt.rdlc" />
+    <EmbeddedResource Include="VATReceipt.resx">
+      <DependentUpon>VATReceipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarrentyItemSelction.resx">
+      <DependentUpon>WarrentyItemSelction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WarrentySlip.rdlc" />
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\LSExtendedWarrenty.AppBase.WarrentyItem.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ReceiptDataSet.xsc">
+      <DependentUpon>ReceiptDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReceiptDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReceiptDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ReceiptDataSet.xss">
+      <DependentUpon>ReceiptDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="WarrentyFormat.rtf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GSLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\GitHub\MyExtentions\MyExtentions\MyExtentions.csproj">
+      <Project>{D2686E19-E7EC-44FF-9931-68B6018F9CAC}</Project>
+      <Name>MyExtentions</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppUpdator\AppUpdator.csproj">
+      <Project>{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}</Project>
+      <Name>AppUpdator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhoneNumberControl\PhoneNumberControl.csproj">
+      <Project>{9700312A-3336-4E47-902C-F8FCBE2D7D27}</Project>
+      <Name>PhoneNumberControl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_png_32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_png_32X32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_avatar_256X256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_avathar_128X128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer_avatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\switch.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

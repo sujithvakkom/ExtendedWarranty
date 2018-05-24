@@ -1,0 +1,2 @@
+"POSAssistance.exe" MAINTANCE
+exit

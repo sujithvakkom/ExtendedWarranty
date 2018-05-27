@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSExtendedWarrenty", "LSExtendedWarrenty\LSExtendedWarrenty.csproj", "{19BE65CE-E03B-44EB-9B47-9B2395A55056}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POSAssistance", "POSAssistance\POSAssistance.csproj", "{FAFAF192-153B-4CE0-A97E-C64A439C99B5}"
@@ -11,9 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpdateFiles", "Test\UpdateF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneNumberControl", "PhoneNumberControl\PhoneNumberControl.csproj", "{9700312A-3336-4E47-902C-F8FCBE2D7D27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExtentions", "..\..\GitHub\MyExtentions\MyExtentions\MyExtentions.csproj", "{D2686E19-E7EC-44FF-9931-68B6018F9CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyExtentions", "..\MyExtentionsWinForms\MyExtentions\MyExtentions.csproj", "{D2686E19-E7EC-44FF-9931-68B6018F9CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpProject", "..\..\GitHub\MyExtentions\StartUpProject\StartUpProject.csproj", "{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpProject", "StartUpProject\StartUpProject.csproj", "{99D0AEE6-63BD-450C-A463-1470A2F6DC5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -209,10 +209,6 @@
     <None Include="Resources\GSLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\GitHub\MyExtentions\MyExtentions\MyExtentions.csproj">
-      <Project>{D2686E19-E7EC-44FF-9931-68B6018F9CAC}</Project>
-      <Name>MyExtentions</Name>
-    </ProjectReference>
     <ProjectReference Include="..\AppUpdator\AppUpdator.csproj">
       <Project>{BF4BBBE3-B0FB-436D-91C3-C64B33BC6EDC}</Project>
       <Name>AppUpdator</Name>

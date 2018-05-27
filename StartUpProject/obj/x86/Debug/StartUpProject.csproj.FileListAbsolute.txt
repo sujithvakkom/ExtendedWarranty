@@ -1,0 +1,4 @@
+D:\Users\srkrishnan\GitHub\MyExtentions\StartUpProject\obj\x86\Debug\StartUpProject.csprojResolveAssemblyReference.cache
+D:\Users\srkrishnan\GitHub\MyExtentions\StartUpProject\obj\x86\Debug\StartUpProject.Form1.resources
+D:\Users\srkrishnan\GitHub\MyExtentions\StartUpProject\obj\x86\Debug\StartUpProject.Properties.Resources.resources
+D:\Users\srkrishnan\GitHub\MyExtentions\StartUpProject\obj\x86\Debug\StartUpProject.csproj.GenerateResource.Cache
